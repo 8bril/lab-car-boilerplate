@@ -1,1 +1,159 @@
 /* Los estilos de tu proyecto */
+
+body {
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+
+
+}
+
+.first-section {
+	background-image: url("../assets/images/taxi.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100vh;
+    margin: 0;
+}
+
+.second-section {
+	padding: 38px;
+	background-color: #FAB443;
+	color: white;
+	
+}
+
+.third-section {
+	background-image: url("../assets/images/conduce.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 60vh;
+    margin: 0;
+}
+
+.info-conducer {
+	color: white;
+	background-color: rgba(0,0,0, 0.5);
+	height: 60vh;
+	padding: 60px;
+	font-size: 24px;
+}
+
+
+.about-info {
+	border: 2px solid white;
+	margin-right: 150px;
+	margin-left: -40px;
+	padding: 45px;
+	font-size: 21px;
+}
+
+.navbar {
+	background: white;
+	border: 0px;
+	color: #444;
+	margin-bottom: 0px;
+	padding: 25px;
+}
+
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+
+
+.register {
+    background-color: #FAB443;
+    margin-top: 40px;
+    color: white;
+    font-size: 25px;
+    
+
+}
+
+.fourth-section {
+	padding: 38px;
+	background-color: #FAB443;
+	color: white;
+}
+
+.cellphone {
+	margin-right: 70px;
+}
+
+.five-second {
+	background-color: #444;
+}
+
+.info-register {
+	padding: 20px;
+}
+
+.btn-1 {
+	background-color: #FAB443;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+}
+
+.tarifa {
+	padding: 20px;
+}
+
+.google-map {
+	border: 1px solid white;
+	margin: 20px;
+	padding: 6px;
+}
+
+footer {
+	padding: 30px;
+}
+
+footer .fa {
+	font-size: 20px;
+	padding-left: 4px;
+}
+
+
+footer li {
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+footer .app {
+	margin-top: 150px;
+	margin-left: 150px;
+}
+
+footer img {
+	margin-bottom: 20px;
+}
+
+.tarifa input {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.tarifa p {
+	margin-bottom: 30px;
+}
+
+.tarifa h1 {
+	margin-bottom: 20px;
+}
+
+.tarifa button {
+	margin-top: 25px;
+    margin-left: 125px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+
+button {
+	background-color: #000;
+} 

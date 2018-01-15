@@ -1,1 +1,201 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Lab < ar </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+<body>
+
+<nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+              <div class="navbar-header">
+          <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar menu-line"></span>
+            <span class="icon-bar menu-line"></span>
+            <span class="icon-bar menu-line"></span> 
+          </button>
+          <img src="assets/images/logoForma.png">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Viaja</a></li>
+            <li><a href="#">Conduce</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in data-toggle="modal" data-target="#myModal"></span> Login</a></li>
+          </ul>
+        </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid first-section">
+      <div class="row">
+           <div class="col-md-offset-8 col-lg-4 register">
+               <div class="info-register">
+                 <p>Disfruta del viaje </br> Eres dueño de tu tiempo</p>
+                 <p>Viaja con <img src="assets/images/logoBlanco.png"></p>
+                 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Registrate</button>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+             <div style="width: 100%; height: 20px; border-bottom: 1px solid white; text-align: center">
+                <span style="font-size: 20px; background-color: #FAB443; padding: 0 10px;"> o bien</span>
+            </div>
+             </br>
+             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Conviertete en un conductor</button>
+
+              </div>
+           </div>
+         </div>
+    </section>
+
+     <section class="container-fluid second-section">
+        <div class="row about-info">
+          <div class="col-lg-4 cellphones">
+            <img class="img-responsive" src="assets/images/iPhone6Plus.png">
+            </div>
+          <div class="col-lg-5">
+            <h2>Descarga la Nueva App</h2>
+            <p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido. Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactamente a dónde ir.</p>
+          </div>
+        </div>
+     </section>
+
+     <section class="container-fluid third-section">
+        <div class="row">
+           <div class="col-md-offset-8 col-lg-4 info-conducer">
+               <p>Conduce cuando quieras</p>
+               <h5>Labcar es una opción flexible para alcanzar tus mentas financieras</h5>
+               <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Conviertete en un conductor</button>
+           </div>
+         </div>
+     </section>
+
+
+     <section class="container-fluid fourth-section">
+       <div class="row">
+         <div class="col-md-offset-1 col-lg-5 tarifa">
+           <h1>Tarifas</h1>
+           <p>Consulta las tarifas LabCar Aquí</p>
+             <form class="form-horizontal">
+                <div class="form-group">
+                <span class="glyphicon glyphicon-send pull-left"></span>
+                <div class="col-sm-10">
+                  <input type="text-align" class="form-control btn-1" placeholder="Ingrese su punto de partida">
+                </div>
+                </div>
+                <div class="form-group">
+                <span class="glyphicon glyphicon-record pull-left"></span>
+                <div class="col-sm-10">
+                  <input type="text-align" class="form-control btn-1" placeholder="Ingrese su destino">
+                </div>
+                </div>
+                <button type="button" class="btn btn-default">¡Trazar Ruta!</button>
+            </form>
+         </div>
+         <div class="col-md-offset-2 col-lg-5 google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.9509539097457!2d-99.18242328541105!3d19.371276247659054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff8ff21932a1%3A0xafbd769c3a16fefb!2sAv.+Insurgentes+Sur+1391%2C+Insurgentes+San+Borja%2C+03920+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1515804993405" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+      </section>
+
+
+     <footer class="container-fluid five-second">
+         <div class="container">
+           <img src="assets/images/logoBlanco.png">
+           <hr>
+           <div class="row">
+             <div class="col-md-offset-3 col-lg-2">
+               <li>Viaja</li>
+               <li>Viaja</li>
+               <li>Viaja</li>
+               <li>Conduce</li>
+               <li>Ciudades</li>
+             </div>
+             <div class="col-lg-2">
+              <li>Oportunidades</li>
+              <li>Nuestra Historia</li>
+              <li>API LabCar</li>
+              <li>Eventos</li>
+              <li>Desarrolladores</li>
+              <li>Servicios</li>
+              <li>Laboratoria</li>
+              <li>Coders</li>
+            </div>
+             <div class="col-lg-2 app">
+                <img src="assets/images/enBadgeWebGeneric.png">
+                <img src="assets/images/appstore.png">
+            </div>
+         </div>
+       </div>
+       <div class="container">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
+
+          <hr>
+
+          <p>2018 LabCar Technologies inc.</p>
+       </div>
+     </footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
+
+
+</body>
+</html>
+
+
+
